@@ -1,0 +1,50 @@
+{
+  "document_id": "string",
+  "passage_id": "string",
+  "title": "string",
+  "community": {
+    "type": "string",
+    "allowed": [
+      "Awori",
+      "Ogu"
+    ]
+  },
+  "knowledge_category": "string",
+  "document_genre": "string",
+  "source_type": "string",
+  "language": "string",
+  "translation_status": {
+    "type": "string",
+    "allowed": [
+      "Original",
+      "Translated",
+      "Bilingual"
+    ]
+  },
+  "geographic_location": "string",
+  "temporal_context": "string",
+  "cultural_sensitivity": {
+    "type": "string",
+    "allowed": [
+      "Public",
+      "Restricted",
+      "Sacred",
+      "Confidential"
+    ]
+  },
+  "validation_status": {
+    "type": "string",
+    "allowed": [
+      "Validated",
+      "Under Review",
+      "Not Validated"
+    ]
+  },
+  "validator_role": "string",
+  "keywords": [
+    "string"
+  ],
+  "embedding_vector": "float[]",
+  "retrieval_score": "float",
+  "governance_flag": "boolean"
+}
